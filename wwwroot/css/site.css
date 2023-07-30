@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 5;
+  margin-right: 10px;
+}
+
+/* Add margin to the right of each list item except the last one */
+.nav-item:not(:last-child) {
+  margin-right: 50px; /* Adjust the value as needed */
+}
+
+
+.navbar-smaller {
+  height: 25px;
+ /* Adjust the height as needed */
+}

@@ -1,0 +1,454 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+ <style>
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(15px,-50px);
+    color: #f9f9f9; /* Set the text color */
+  }
+
+  .image-text h1 {
+    font-size: 40px;
+    font-weight: bold; 
+    margin-bottom: 5px; /* Adjust the spacing as needed */
+  }
+
+  .image-text p {
+    font-size: 15px; 
+  }
+  .search-container {
+    position:absolute;
+    text-align: center;
+  }
+  .custom-form .form-control ,.bbuton  {
+    height: 50px; /* Adjust the height as needed */
+  }
+
+  
+    .image-card {
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .image-card .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+    
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #94a1ab;
+  padding: 1px;
+}
+
+  .grid-container-prod {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1px;
+}
+.popupb {
+  position:relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  }
+
+.arrow-popup{
+  position:relative;
+  align-items: center;
+
+}
+.grid-itemb1 {
+  opacity:0;
+}
+.grid-itemb3 {
+  opacity:0;
+}
+
+.popup {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  right: 0;
+  bottom: 50px;
+  transform: translate(-50px,-250px);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }}
+  & > div {
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+  }
+ 
+.popup-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+    @@media (max-width: 767px) {
+    .grid-container-prod {
+      grid-template-columns:1fr; /* Change to a single column layout */
+    }}
+  </style>
+  <head>
+   
+  </head>
+  <body>
+     
+  <div class="image-container">
+   <img style="--aspect-ratio: 16/9;"src="~/assets/images/banner3.png" sizes="100vw" alt="grilled chicken" loading="eager" class="square svelte-kb6fq">
+    <div class="image-text">
+      <h1>Delivery at your Doorstep & <br>
+        Takeaway Food</h1>
+      <p>Get Best Deals in same place</p>
+      <form class="form-inline my-2 my-lg-0 custom-form">
+        <div class="input-group">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn btn-success bbuton" type="submit" onclick="greet()">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <div class="container popupb">
+    <div class="grid-container">
+      <div class="grid-itemb"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-itemb"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-itemb"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      @* <div class='btn btn-danger' id ="open-popup" onclick="popup()"><i class="fa fa-arrow-down" aria-hidden="true"></i></div> *@
+      <div class='grid-itemb1' id ="open-popup2"  ><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+      <a class='grid-itemb' id ="open-popup" href="#popsup" ><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="container popup" id="popsup">
+    <div class="grid-container">
+      <a href="#" title="Close" class="popup-close">&times</a>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+      <div class="grid-item"><i class="fa fa-cutlery" aria-hidden="true"></i><br>Pizza</div>
+    </div>
+  </div>
+<div class="heading">
+    <center><h1>Most Selling Foods</h1></center>
+</div>
+  <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <div class="card image-card">
+          <img src="/assets/images/sushi.jpg" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Image 1 Title</h5>
+            <p class="card-text">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card image-card">
+          <img src="/assets/images/sushi.jpg" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Image 1 Title</h5>
+            <p class="card-text">Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card image-card">
+          <img src="~/assets/images/sushi.jpg" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Image 3 Title</h5>
+            <p class="card-text">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card image-card">
+          <img src="~/assets/images/sushi.jpg" alt="Image 4">
+          <div class="card-body">
+            <h5 class="card-title">Image 4 Title</h5>
+            <p class="card-text">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card image-card">
+          <img src="~/assets/images/sushi.jpg" alt="Image 5">
+          <div class="card-body">
+            <h5 class="card-title">Image 5 Title</h5>
+            <p class="card-text">Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col-md-12">
+        <div class="button-container">
+          <button type="button" class="btn btn-success">Find All</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="heading">
+   <center> <h1>Special Dishes</h1></center>
+  </div>
+<div class="grid-container-prod">
+  @foreach(var obj in Model){
+
+  <div class="grid-item">
+    <div class="card" style="width:300px;border-color:transparent">
+        <img src="@Url.Content(obj.ImageFile)" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p style="font-size: 15px;margin-top:10px"><b>@obj.Name</b></p>
+          <div class="details">
+            <div class="row">
+              <div class="col-lg-9">
+                <span style="font-size: 15px;opacity:0.7;">@obj.description </span>
+              </div>
+              <div class="col-lg-3">
+                <p style="font-size: 15px;opacity:0.7;color:red;">@obj.Price</p>
+              </div>
+            </div>
+          </div> 
+          <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+            <div class="col-6">
+              <button type="button" id="Customize"class="btn btn-success btn-sm col-12"
+              > <p style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">Customize</p></button>
+            </div>
+
+            <div class="col-6">
+              <button type="button" id="Add_to_cart"class="btn btn-light  btn-sm col-12"
+              ><p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p></button>
+            </div>
+           </div> 
+          </div> 
+      </div>
+  </div>
+
+}
+  <!-- <div class="grid-item">
+    <div class="card" style="width:300px;border-color:transparent">
+        <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+          <div class="details">
+            <div class="row">
+              <div class="col-lg-9">
+                <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+              </div>
+              <div class="col-lg-3">
+                <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+              </div>
+            </div>
+          </div> 
+          <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+            <div class="col-6">
+              <button type="button" id="Customize"class="btn btn-success btn-sm col-12"
+              > <p style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">Customize</p></button>
+            </div>
+
+            <div class="col-6">
+              <button type="button" id="Add_to_cart"class="btn btn-light  btn-sm col-12"
+              ><p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p></button>
+            </div>
+           </div> 
+          </div> 
+      </div>
+      </div>
+  <div class="grid-item">
+    <div class="card" style="width:300px;border-color:transparent">
+        <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+          <div class="details">
+            <div class="row">
+              <div class="col-lg-9">
+                <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+              </div>
+              <div class="col-lg-3">
+                <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+              </div>
+            </div>
+          </div> 
+          <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+            <div class="col-6">
+              <button type="button" id="Customize"class="btn btn-success btn-sm col-12"
+              > <p style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">Customize</p></button>
+            </div>
+
+            <div class="col-6">
+              <button type="button" id="Add_to_cart"class="btn btn-light  btn-sm col-12"
+              ><p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p></button>
+            </div>
+           </div> 
+          </div> 
+      </div>
+      </div>
+
+  <div class="grid-item">
+    <div class="card" style="width:300px;border-color:transparent">
+    <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+    <div class="container">
+      <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+      <div class="details">
+        <div class="row">
+          <div class="col-lg-9">
+            <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+          </div>
+          <div class="col-lg-3">
+            <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+          </div>
+        </div>
+      </div> 
+      <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+        <div class="col-6">
+          <button type="button" id="Customize"class="btn btn-success btn-sm col-12"
+          > <p style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">Customize</p></button>
+        </div>
+
+        <div class="col-6">
+          <button type="button" id="Add_to_cart"class="btn btn-light  btn-sm col-12"
+          ><p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p></button>
+        </div>
+        </div> 
+      </div> 
+  </div> -->
+  </div>
+  </div>
+
+
+
+
+@* NewsLetter *@
+  <div class="container" style="margin:20px;background:#37404d;border-radius:10px;">
+    <div class="row" >
+      <div class="col-6">
+      <h1 style="color:white;">NewsLetter</h1>
+      <p style="color:white;">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      </div>
+      <div class="col-6" style="position: relative;transform: translate(10px,25px);">
+        <div class="input-group">
+          <input class="form-control" placeholder="Your Email" type="email">
+          <div class="input">
+            <button class="btn btn btn-success bbuton" type="submit" onclick="greet()">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+  <!-- Include the Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer class="border-top footer text-muted" style="background:#37404d;padding:2rem;">
+  <div class="row">
+    <div class="col-4">
+      <div>
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fyoughal.ie%2Fwp-content%2Fuploads%2F2018%2F11%2FLogo-with-transparent-background-1-1.png&f=1&nofb=1&ipt=06c9fb76013cf72cc887830adb04dbab3a63393831e784324149b39baf6009ab&ipo=images" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+      </div>
+      <div>
+        <h3>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut</h3>
+      </div>
+      <div>
+
+      </div>
+      </div>
+    <div class="col-8">
+      <div class="row">
+      <div class="card" style="width: 18rem;">
+        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        <div class="card-body">
+          <center><h5 class="card-title">I wish To<br> Supply</h5>
+          <a href="#" class="btn btn-danger">SignIn/Register</a></center>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        <div class="card-body">
+          <center><h5 class="card-title">I wish To an AGENT<br> CHANNEL PARTNER</h5>
+          <a href="#" class="btn btn-danger">SignIn/Register</a></center>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        <div class="card-body">
+          <center><h5 class="card-title">I wish To<br> INVEST</h5>
+          <a href="#" class="btn btn-danger">SignIn/Register</a></center>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  
+  </div>
+</footer>
+
+

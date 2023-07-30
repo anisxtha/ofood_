@@ -1,0 +1,377 @@
+@{
+ViewData["Title"] = "logged In Home Page";
+}
+<style>
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+
+    .collapse {
+        &:not(.show) {
+            display: none;
+        }
+    }
+
+    /* .card{
+    width: 300px;
+      height: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      text-align: center;
+    } */
+    .collapsing {
+        height: 0;
+        overflow: hidden;
+        @@include transition($transition-collapse);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        background-color: #94a1ab;
+        padding: 1px;
+    }
+
+    .grid-container-prod {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 1px;
+    }
+
+    .container-category {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: f5f5f5;
+        margin-left: 2rem;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        width: 260px;
+        background: #ffff;
+        /* padding: 15px; */
+        align-items: self-start;
+        z-index: 99;
+    }
+   
+
+    .container-category .btn {
+        width: fit-content;
+        background-color: #f5f5f5;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+        transition: background-color 0.3s;
+    }
+
+    .container-category .btn i {
+        margin-right: 5px;
+    }
+
+    .container-category .btn:hover {
+        background-color: #e0e0e0;
+    }
+
+    .container-category .btn img {
+        width: 20px;
+        margin-left: 2rem;
+    }
+    #multiCollapseExample4 .btn{
+            border-radius: 5px;
+    }
+    
+</style>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <nav class="sidebar">
+                <div class="menu-content">
+                    <ul class="menu-items">
+                        <div class="menu-title"><p> Filter<button type="button" class="btn btn-link">Reset all</button></p></div>
+                        <li class="item">
+                            <p class="item1">
+                                Appetizer
+                                <a data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1"><i
+                                        class="fa fa-sort-desc" aria-hidden="true" style="margin-left: 10px;"></i></a>
+                            </p>
+
+                            <div class="collapse multi-collapse ml-auto" id="multiCollapseExample1">
+                                <div class="form-check" id="subcategory">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <p> <label class="form-check-label" for="flexCheckChecked">
+                                            Asian
+                                        </label>
+                                    <p id="subcat value" style="font-size:10px;">(10)</p>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="item">
+                            <p class="item2">
+                                Breakfast
+                                <a data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1"><i
+                                        class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                            </p>
+
+                            <div class="collapse multi-collapse ml-auto" id="multiCollapseExample2">
+                                <div class="form-check" id="subcategory">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <p> <label class="form-check-label" for="flexCheckChecked" id="subcategory">
+                                            Asian
+                                        </label>
+                                    <p id="subcat value" style="font-size:10px;">(10)</p>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="item">
+                            <p class="item3">
+                                Brunch
+                                <a data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1"><i
+                                        class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                            </p>
+
+                            <div class="collapse multi-collapse ml-auto" id="multiCollapseExample3">
+                                <div class="form-check" id="subcategory">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <p> <label class="form-check-label" for="flexCheckChecked">
+                                            Asian
+                                        </label>
+                                    <p id="subcat value" style="font-size:10px;">(10)</p>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="item">
+                            <p class="item3">
+                                Dietry
+                                <a data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample4"><i
+                                        class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                            </p>
+
+                            <div class="collapse multi-collapse ml-auto dietry" id="multiCollapseExample4">
+                                <p>
+                                    <button type="button" class="btn btn-light" style="border-radius: 10px;">Primary</button>
+                                                                 </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <p><b>Browse Categories</b></p>
+                <div class="container-category">
+                    <button class="btn"></i> PIZZA <img src="~/assets/images/icons-pizza.png"></button>
+                    <button class="btn">BURGER<img src="~/assets/images/icons-burger.png"></button>
+                    <button class="btn">EGG_ITEMS <img src="~/assets/images/icons-egg.png"></button>
+                    <button class="btn">SANDWICH <img src="~/assets/images/icons-sandwich.png"></button>
+                    <button class="btn">DAIRY<img src="~/assets/images/icons-dairy.png"></button>
+                    <button class="btn">DESSERT <img src="~/assets/images/icons-dessert.png"></button>
+                </div>
+            </div>
+            <div class="container-fluid" style="margin-top: 2rem;">
+                <p><b>Popular Deals</b></p>
+                <div class="grid-item" id="popular_deals">
+                    <div class="card" style="width: 19rem;">
+                        <img src="~/assets/images/sushi.jpg" alt="Avatar">
+                        <div class="container">
+                            <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+                            <div class="details">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" id="Add_to_cart" class="btn btn-light  btn-sm col-12">
+                                <p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i class="fa fa-plus"
+                                        aria-hidden="true"></i> Add to Cart</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p><b>Special Dishes</b></p>
+                <div class="grid-container-prod">
+                    <div class="grid-item">
+                        <div class="card" style="width:300px;border-color:transparent">
+                            <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+                                <div class="details">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <span style="font-size: 15px;opacity:0.7;">Contains Rice... </span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+                                    <div class="col-6">
+                                        <button type="button" id="Customize" class="btn btn-success btn-sm col-12">
+                                            <p
+                                                style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">
+                                                Customize</p>
+                                        </button>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <button type="button" id="Add_to_cart" class="btn btn-light  btn-sm col-12">
+                                            <p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i
+                                                    class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card" style="width:300px;border-color:transparent">
+                            <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+                                <div class="details">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+                                    <div class="col-6">
+                                        <button type="button" id="Customize" class="btn btn-success btn-sm col-12">
+                                            <p
+                                                style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">
+                                                Customize</p>
+                                        </button>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <button type="button" id="Add_to_cart" class="btn btn-light  btn-sm col-12">
+                                            <p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i
+                                                    class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card" style="width:300px;border-color:transparent">
+                            <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+                                <div class="details">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+                                    <div class="col-6">
+                                        <button type="button" id="Customize" class="btn btn-success btn-sm col-12">
+                                            <p
+                                                style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">
+                                                Customize</p>
+                                        </button>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <button type="button" id="Add_to_cart" class="btn btn-light  btn-sm col-12">
+                                            <p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i
+                                                    class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="card" style="width:300px;border-color:transparent">
+                            <img src="~/assets/images/sushi.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <p style="font-size: 15px;margin-top:10px"><b>Moist Sushi</b></p>
+                                <div class="details">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <span style="font-size: 15px;opacity:0.7;">Contains Rice...</span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p style="font-size: 15px;opacity:0.7;color:red;">$350</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-bottom:1rem;margin-left:0px;margin-right:0px">
+                                    <div class="col-6">
+                                        <button type="button" id="Customize" class="btn btn-success btn-sm col-12">
+                                            <p
+                                                style="font-size: 15px;margin-bottom: 5px; margin-left: 0px;color:black;">
+                                                Customize</p>
+                                        </button>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <button type="button" id="Add_to_cart" class="btn btn-light  btn-sm col-12">
+                                            <p style="font-size: 14px; margin-bottom: 5px; margin-left: 0px;"><i
+                                                    class="fa fa-plus" aria-hidden="true"></i> Add to Cart</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

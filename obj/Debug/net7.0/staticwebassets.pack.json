@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\restraunt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\restraunt.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\banner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner3.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\draw2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\draw2.webp"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-burger.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-burger.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-dairy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-dairy.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-dessert.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-dessert.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-egg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-egg.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-pizza.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\icons-sandwich.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons-sandwich.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\login-form-v1.zip",
+      "PackagePath": "staticwebassets\\assets\\images\\login-form-v1.zip"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\signup.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\signup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\signup1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\signup1.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\images\\sushi.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sushi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\temp\\full.png",
+      "PackagePath": "staticwebassets\\assets\\temp\\full.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\assets\\temp\\new.png",
+      "PackagePath": "staticwebassets\\assets\\temp\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\css\\bootswatch.css",
+      "PackagePath": "staticwebassets\\css\\bootswatch.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\fontawesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\sijan\\Desktop\\dot net\\restraunt\\wwwroot\\lib\\w3\\w3schools.com_w3css_4_w3.css",
+      "PackagePath": "staticwebassets\\lib\\w3\\w3schools.com_w3css_4_w3.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.restraunt.props",
+      "PackagePath": "build\\restraunt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.restraunt.props",
+      "PackagePath": "buildMultiTargeting\\restraunt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.restraunt.props",
+      "PackagePath": "buildTransitive\\restraunt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.restraunt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
